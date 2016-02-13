@@ -17,7 +17,7 @@ public class TestFavorites {
     @Autowired
     private FavoriteService favoriteService;
 
-
+    //before test
     @Before
     public void setup() {
         favoriteService.addUser("root", "rootpasswd", "username", "password");
